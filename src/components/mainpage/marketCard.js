@@ -95,8 +95,38 @@ export default ({
         price: "$4.00",        
         url: "https://gametoken.store/product/dont-starve-together-steam-gift-global/"
       },
-     
-    
+      {
+        imageSrc:
+          "https://gametoken.store/wp-content/uploads/2021/05/residentevil.png",
+        title: "Resident Evil 8: Village",
+        content: "Steam - Key",
+        price: "$40.00",        
+        url: "https://gametoken.store/product/resident-evil-8-village-pc-steam-key-europe/"
+      },
+      {
+        imageSrc:
+          "https://gametoken.store/wp-content/uploads/2021/05/rome-total-war.png",
+        title: "Total War: ROME REMASTERED",
+        content: "Steam - Key",
+        price: "$20.00",        
+        url: "https://gametoken.store/product/total-war-rome-remastered-pc-steam-key-europe/"
+      },
+      {
+        imageSrc:
+          "https://gametoken.store/wp-content/uploads/2021/05/nierrep.png",
+        title: "NieR Replicant ver.1.22474487139…",
+        content: "Steam - Key",
+        price: "$48.00",        
+        url: "https://gametoken.store/product/nier-replicant-ver-1-22474487139-pc-steam-key-global/"
+      },
+      {
+        imageSrc:
+          "https://gametoken.store/wp-content/uploads/2021/06/nierrep-31.jpg",
+        title: "Mount & Blade II: Bannerlord ",
+        content: "Steam - Key",
+        price: "$32.00",        
+        url: "https://gametoken.store/product/mount-blade-ii-bannerlord-steam-key-global/"
+      },
     ],
     Playstation: getPsGames(),
     Xbox: getPsGames(),
