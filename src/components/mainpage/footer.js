@@ -44,7 +44,7 @@ export default () => {
             <LogoText>GameTokenFinance.</LogoText>
           </LogoContainer>
           <CompanyDescription>
-            Treact is an Internet Technology company providing design resources such as website templates and themes.
+          GameTokenFinance is a gamer community project.
           </CompanyDescription>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">

@@ -64,15 +64,20 @@ export default () => {
 
   const cards = [
     {
-      imageSrc: ShieldIconImage,
+      imageSrc: SupportIconImage,
       title: "Customer Services",
-      description: "We create and manage ads that you need, from creation to deployment. Lorem ipsum donor sit amet consicou."
+      description: "You can contact our support team on telegram 7/24."
     },
-    { imageSrc: SupportIconImage, title: "Game Farm" },
-    { imageSrc: CustomizeIconImage, title: "Game Market" },
-    { imageSrc: ReliableIconImage, title: "Game Vault" },
-    { imageSrc: FastIconImage, title: "Game Dollar" },
-    { imageSrc: SimpleIconImage, title: "Game NFT" }
+    { imageSrc: SupportIconImage, title: "Game Farm",
+     description: "You can earn Game Token by staking in Game Farm." },
+    { imageSrc: CustomizeIconImage, title: "Game Market",
+    description: "With your GameTokens you could buy cheapest games in the world." },
+    { imageSrc: ReliableIconImage, title: "Game Vault",
+    description: "Game Vault auto compounds for you, furthermore only with just one time low fee." },
+    { imageSrc: FastIconImage, title: "Game Dollar",
+    description: "Game Dollar is an algorithmic stable coin project. Another place for you to use your GameToken, GameDollar and GameShare tokens." },
+    { imageSrc: SimpleIconImage, title: "Game NFT",
+    description: "In the Game NFT section, you could play a lot of games against other people, and when you win you will get your opponents tokens as a reward!." }
   ];
 
   return (
