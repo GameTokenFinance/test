@@ -121,7 +121,7 @@ export default ({
       },
     ],
     Playstation: getPsGames(),
-    Xbox: getPsGames(),
+    Xbox: getXboxGames(),
     Nintendo: getPsGames(),
   
   }
@@ -210,83 +210,156 @@ const getPsGames = () => {
   const cards = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      title: "Chicken Chilled",
-      content: "Chicken Main Course",
-      price: "$5.99",
-      rating: "5.0",
-      reviews: "87",
-      url: "#"
+        "https://gametoken.store/wp-content/uploads/2021/06/nierrep-8-1.jpg",
+      title: "Assassin’s Creed: Valhalla | Standard Edition ",
+      content: "Xbox - Global",
+      price: "$37.00",
+      
+      url: "https://gametoken.store/product/assassins-creed-valhalla-standard-edition-xbox-series-x-xbox-live-key-global/"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1582254465498-6bc70419b607?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      title: "Samsa Beef",
-      content: "Fried Mexican Beef",
-      price: "$3.99",
-      rating: "4.5",
-      reviews: "34",
-      url: "#"
+        "https://gametoken.store/wp-content/uploads/2021/06/resim_2021-06-10_022915.png",
+      title: "Biomutant (Xbox One)",
+      content: "Xbox - Europe Key",
+      price: "$43.00",
+   
+      url: "https://gametoken.store/product/biomutant-xbox-one-xbox-live-key-europe/"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1565310022184-f23a884f29da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      title: "Carnet Nachos",
-      content: "Chilli Crispy Nachos",
-      price: "$3.99",
-      rating: "3.9",
-      reviews: "26",
-      url: "#"
+        "https://gametoken.store/wp-content/uploads/2021/06/resim_2021-06-10_031344.png",
+      title: "Call of Duty Black Ops: Cold War",
+      content: "Xbox - Global Key",
+      price: "$33.00",
+   
+      url: "https://gametoken.store/product/call-of-duty-black-ops-cold-war-xbox-one-xbox-live-key-global/"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      title: "Guacamole Mex",
-      content: "Mexican Chilli",
-      price: "$3.99",
-      rating: "4.2",
-      reviews: "95",
-      url: "#"
+        "https://gametoken.store/wp-content/uploads/2021/06/resim_2021-06-19_172018.png",
+      title: "Mass Effect Legendary Edition",
+      content: "Xbox - Global Key",
+      price: "$42.00",
+      
+      url: "https://gametoken.store/product/mass-effect-legendary-edition-xbox-series-x-s-xbox-live-key-global/"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1550461716-dbf266b2a8a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      title: "Chillie Cake",
-      content: "Deepfried Chicken",
-      price: "$2.99",
-      rating: "5.0",
-      reviews: "61",
-      url: "#"
+        "https://gametoken.store/wp-content/uploads/2021/06/nierrep-35.jpg",
+      title: "The Elder Scrolls V: Skyrim Special Edition",
+      content: "Xbox - Global Key",
+      price: "$15.00",
+     
+      url: "https://gametoken.store/product/the-elder-scrolls-v-skyrim-special-edition-xbox-one-xbox-live-key-global/"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327??ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      title: "Nelli",
-      content: "Hamburger & Fries",
-      price: "$7.99",
-      rating: "4.9",
-      reviews: "89",
-      url: "#"
+        "https://gametoken.store/wp-content/uploads/2021/06/nierrep-37.jpg",
+      title: "Tom Clancy’s Ghost Recon Wildlands",
+      content: "Xbox - Global Key",
+      price: "$16.00",
+     
+      url: "https://gametoken.store/product/tom-clancys-ghost-recon-wildlands-xbox-one-xbox-live-key-global/"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      title: "Jalapeno Poppers",
-      content: "Crispy Soyabeans",
-      price: "$8.99",
-      rating: "4.6",
-      reviews: "12",
-      url: "#"
+        "https://gametoken.store/wp-content/uploads/2021/06/nierrep-1-5.jpg",
+      title: "Watch Dogs: Legion ",
+      content: "Xbox - Global Key",
+      price: "$28.00",
+     
+      url: "https://gametoken.store/product/watch-dogs-legion-xbox-series-x-xbox-live-key-global/"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      title: "Cajun Chicken",
-      content: "Roasted Chicken & Egg",
-      price: "$7.99",
-      rating: "4.2",
-      reviews: "19",
-      url: "#"
+        "https://gametoken.store/wp-content/uploads/2021/06/resim_2021-06-15_235517.png",
+      title: "Borderlands 3 Standard Edition",
+      content: "Xbox - Global",
+      price: "$24.00",
+     
+      url: "https://gametoken.store/product/borderlands-3-standard-edition-xbox-live-xbox-one-key-global/"
+    }
+  ];
+
+  // Shuffle array
+  return cards.sort(() => Math.random() - 0.5);
+};
+
+/* This function is only there for demo purposes. It populates placeholder cards */
+const getXboxGames = () => {
+  const cards = [
+    {
+      imageSrc:
+        "https://gametoken.store/wp-content/uploads/2021/06/nierrep-8-1.jpg",
+      title: "Assassin’s Creed: Valhalla | Standard Edition ",
+      content: "Xbox - Global",
+      price: "$37.00",
+      
+      url: "https://gametoken.store/product/assassins-creed-valhalla-standard-edition-xbox-series-x-xbox-live-key-global/"
+    },
+    {
+      imageSrc:
+        "https://gametoken.store/wp-content/uploads/2021/06/resim_2021-06-10_022915.png",
+      title: "Biomutant (Xbox One)",
+      content: "Xbox - Europe Key",
+      price: "$43.00",
+   
+      url: "https://gametoken.store/product/biomutant-xbox-one-xbox-live-key-europe/"
+    },
+    {
+      imageSrc:
+        "https://gametoken.store/wp-content/uploads/2021/06/resim_2021-06-10_031344.png",
+      title: "Call of Duty Black Ops: Cold War",
+      content: "Xbox - Global Key",
+      price: "$33.00",
+   
+      url: "https://gametoken.store/product/call-of-duty-black-ops-cold-war-xbox-one-xbox-live-key-global/"
+    },
+    {
+      imageSrc:
+        "https://gametoken.store/wp-content/uploads/2021/06/resim_2021-06-19_172018.png",
+      title: "Mass Effect Legendary Edition",
+      content: "Xbox - Global Key",
+      price: "$42.00",
+      
+      url: "https://gametoken.store/product/mass-effect-legendary-edition-xbox-series-x-s-xbox-live-key-global/"
+    },
+    {
+      imageSrc:
+        "https://gametoken.store/wp-content/uploads/2021/06/nierrep-35.jpg",
+      title: "The Elder Scrolls V: Skyrim Special Edition",
+      content: "Xbox - Global Key",
+      price: "$15.00",
+     
+      url: "https://gametoken.store/product/the-elder-scrolls-v-skyrim-special-edition-xbox-one-xbox-live-key-global/"
+    },
+    {
+      imageSrc:
+        "https://gametoken.store/wp-content/uploads/2021/06/nierrep-37.jpg",
+      title: "Tom Clancy’s Ghost Recon Wildlands",
+      content: "Xbox - Global Key",
+      price: "$16.00",
+     
+      url: "https://gametoken.store/product/tom-clancys-ghost-recon-wildlands-xbox-one-xbox-live-key-global/"
+    },
+    {
+      imageSrc:
+        "https://gametoken.store/wp-content/uploads/2021/06/nierrep-1-5.jpg",
+      title: "Watch Dogs: Legion ",
+      content: "Xbox - Global Key",
+      price: "$28.00",
+     
+      url: "https://gametoken.store/product/watch-dogs-legion-xbox-series-x-xbox-live-key-global/"
+    },
+    {
+      imageSrc:
+        "https://gametoken.store/wp-content/uploads/2021/06/resim_2021-06-15_235517.png",
+      title: "Borderlands 3 Standard Edition",
+      content: "Xbox - Global",
+      price: "$24.00",
+     
+      url: "https://gametoken.store/product/borderlands-3-standard-edition-xbox-live-xbox-one-key-global/"
     }
   ];
 
