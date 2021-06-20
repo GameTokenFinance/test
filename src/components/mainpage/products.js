@@ -9,12 +9,13 @@ import defaultCardImage from "../../images/shield-icon.svg";
 
 import { ReactComponent as SvgDecoratorBlob3 } from "../../images/svg-decorator-blob-3.svg";
 
-import SupportIconImage from "../../images/support-icon.svg";
-import ShieldIconImage from "../../images/shield-icon.svg";
-import CustomizeIconImage from "../../images/customize-icon.svg";
-import FastIconImage from "../../images/fast-icon.svg";
-import ReliableIconImage from "../../images/reliable-icon.svg";
-import SimpleIconImage from "../../images/simple-icon.svg";
+import market from "../../images/market.png"
+import nft from "../../images/nft.png"
+import support from "../../images/support.png"
+import dollar from "../../images/dollar.png"
+import vault from "../../images/vault.png"
+import farm from "../../images/farm.png"
+
 
 const Container = tw.div`relative`;
 
@@ -64,19 +65,19 @@ export default () => {
 
   const cards = [
     {
-      imageSrc: SupportIconImage,
+      imageSrc: support,
       title: "Customer Services",
       description: "You can contact our support team on telegram 7/24."
     },
-    { imageSrc: SupportIconImage, title: "Game Farm",
+    { imageSrc: farm, title: "Game Farm",
      description: "You can earn Game Token by staking in Game Farm." },
-    { imageSrc: CustomizeIconImage, title: "Game Market",
+    { imageSrc: market, title: "Game Market",
     description: "With your GameTokens you could buy cheapest games in the world." },
-    { imageSrc: ReliableIconImage, title: "Game Vault",
+    { imageSrc: vault, title: "Game Vault",
     description: "Game Vault auto compounds for you, furthermore only with just one time low fee." },
-    { imageSrc: FastIconImage, title: "Game Dollar",
+    { imageSrc: dollar, title: "Game Dollar",
     description: "Game Dollar is an algorithmic stable coin project. Another place for you to use your GameToken, GameDollar and GameShare tokens." },
-    { imageSrc: SimpleIconImage, title: "Game NFT",
+    { imageSrc: nft, title: "Game NFT",
     description: "In the Game NFT section, you could play a lot of games against other people, and when you win you will get your opponents tokens as a reward!." }
   ];
 

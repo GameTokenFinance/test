@@ -4,9 +4,10 @@ import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 
 import LogoImage from "../../assets/logo.png";
-import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
-import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
-import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
+import MediumIcon from "../../images/medium-icon.png";
+import Telegram from "../../images/telegram.png";
+import Github from "../../images/github.png";
+import Twitter from "../../images/twitter.png";
 
 const Container = tw.div`relative bg-gray-200 -mx-8 -mb-8 px-8`;
 const FiveColumns = tw.div`max-w-screen-xl mx-auto py-16 lg:py-20 flex flex-wrap justify-between`;
@@ -46,32 +47,38 @@ export default () => {
           <CompanyDescription>
           GameTokenFinance is a gamer community project.
           </CompanyDescription>
+
           <SocialLinksContainer>
-            <SocialLink href="https://facebook.com">
-              <FacebookIcon />
+            <SocialLink href="https://github.com/GameTokenFinance">              
+              <LogoImg src={Github} />
             </SocialLink>
-            <SocialLink href="https://twitter.com">
-              <TwitterIcon />
+
+            <SocialLink href="https://t.me/gametokenfi">
+            <LogoImg src={Telegram} />
             </SocialLink>
-            <SocialLink href="https://youtube.com">
-              <YoutubeIcon />
+            
+            <SocialLink href="https://twitter.com/gametokenfi">
+            <LogoImg src={Twitter} />
+            </SocialLink>
+            <SocialLink href="https://medium.com/@gametokenfi">
+            <LogoImg src={MediumIcon} />
             </SocialLink>
           </SocialLinksContainer>
         </WideColumn>
         <Column>
-          <ColumnHeading>Quick Links</ColumnHeading>
+          <ColumnHeading>Useful Links</ColumnHeading>
           <LinkList>
             <LinkListItem>
-              <Link href="#">Blog</Link>
+              <Link href="https://t.me/gametokenfi">GameToken Group</Link>
             </LinkListItem>
             <LinkListItem>
-              <Link href="#">FAQs</Link>
+              <Link href="https://t.me/joinchat/Sp6QSD8exOw1Mzll">Price Channel</Link>
             </LinkListItem>
             <LinkListItem>
-              <Link href="#">Support</Link>
+              <Link href="https://t.me/GameTokenAnnouncements">GameToken Announcements</Link>
             </LinkListItem>
             <LinkListItem>
-              <Link href="#">About Us</Link>
+              <Link href="https://t.me/gametokenproduct">GameToken Product</Link>
             </LinkListItem>
           </LinkList>
         </Column>
@@ -79,33 +86,33 @@ export default () => {
           <ColumnHeading>Product</ColumnHeading>
           <LinkList>
             <LinkListItem>
-              <Link href="#">Log In</Link>
+              <Link href="https://app.gametoken.finance/">Yield Farm</Link>
             </LinkListItem>
             <LinkListItem>
-              <Link href="#">Personal</Link>
+              <Link href="https://gametoken.store/">Game Market</Link>
             </LinkListItem>
             <LinkListItem>
-              <Link href="#">Business</Link>
+              <Link href="https://gvault.gametoken.finance/">Game Vault</Link>
             </LinkListItem>
             <LinkListItem>
-              <Link href="#">Team</Link>
+              <Link href="https://gdollar.gametoken.finance/">Game Dollar</Link>
             </LinkListItem>
           </LinkList>
         </Column>
         <Column>
-          <ColumnHeading>Legal</ColumnHeading>
+          <ColumnHeading>Contact</ColumnHeading>
           <LinkList>
             <LinkListItem>
-              <Link href="#">GDPR</Link>
+              <Link href="https://t.me/GameMasterFi">GameMaster</Link>
             </LinkListItem>
             <LinkListItem>
-              <Link href="#">Privacy Policy</Link>
+              <Link href="https://t.me/CaptainCorporate">GameToken CaptainCorporate</Link>
             </LinkListItem>
             <LinkListItem>
-              <Link href="#">Terms of Service</Link>
+              <Link href="#">Finn Joness</Link>
             </LinkListItem>
             <LinkListItem>
-              <Link href="#">Disclaimer</Link>
+              <Link href="https://t.me/MertAyd">Mert Aydın</Link>
             </LinkListItem>
           </LinkList>
         </Column>

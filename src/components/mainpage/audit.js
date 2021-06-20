@@ -11,6 +11,7 @@ import livew from "images/livew.png"
 import safepal from "images/safepal.png"
 import math from "images/math.png"
 import techrate from "images/techrate.png"
+import dexguru from "images/dexguru.png"
 
 
 const Container = tw(ContainerBase)`bg-gray-900 -mx-8`
@@ -65,6 +66,11 @@ export default ({
           <ImageContainer>
           <a href="https://www.livecoinwatch.com/price/GameToken-GMEV3">
         <img src={livew} alt="" />
+        </a>
+          </ImageContainer>
+          <ImageContainer>
+          <a href="https://dex.guru/token/0xdd87df4697527e6fbc5586cb0105bd8ab0fa7a61-bsc">
+        <img src={dexguru} alt="" />
         </a>
           </ImageContainer>
 
