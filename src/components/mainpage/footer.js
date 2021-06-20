@@ -109,7 +109,7 @@ export default () => {
               <Link href="https://t.me/CaptainCorporate">GameToken CaptainCorporate</Link>
             </LinkListItem>
             <LinkListItem>
-              <Link href="#">Finn Joness</Link>
+              <Link href="https://t.me/Finnjonesnew">Finn Joness</Link>
             </LinkListItem>
             <LinkListItem>
               <Link href="https://t.me/MertAyd">Mert Aydın</Link>
