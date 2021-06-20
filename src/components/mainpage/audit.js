@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+
 import tw from "twin.macro";
 
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-9.svg";
@@ -57,7 +57,7 @@ export default ({
         <ImageContainer>
         <a href="https://dappradar.com/binance-smart-chain/marketplaces/gametokenfinance">
          
-        <img src={dappRadar} alt=""/>
+        <img src={dappRadar} alt="" />
         
        
        </a> 
